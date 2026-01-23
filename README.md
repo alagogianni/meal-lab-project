@@ -1,14 +1,14 @@
 # meal-lab-project
 A Java recipe application using TheMealDB API and JavaFX.
 
-# MealLab System
+## MealLab System
 
 A Recipe Management System developed for a university assignment.
 The project consists of two modules:
 1. **meallab-api**: A Java library that connects to [TheMealDB](https://www.themealdb.com) API to fetch recipes.
 2. **meallab-app**: A Desktop Application (GUI) built with **JavaFX** to display recipes to the user.
 
-## Features
+## 🚀 Features
 * **Search:** Find recipes based on a primary ingredient.
 * **Detailed View:** Access full cooking instructions, ingredient lists, and high-quality photos.
 * **Favorites:** Save preferred recipes to a local JSON file for quick offline access.
