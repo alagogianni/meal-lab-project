@@ -1,0 +1,42 @@
+/* Γενικό στυλ εφαρμογής */
+.root {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-background-color: #ffffff;
+}
+
+/* Στυλ για την οριζόντια γκαλερί (ScrollPane) */
+.modern-scroll {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+/* Ρύθμιση για τις μπάρες κύλισης (Scrollbars) */
+.modern-scroll .scroll-bar:horizontal {
+    -fx-background-color: #f9f1d0;
+    -fx-background-radius: 10;
+}
+
+.modern-scroll .scroll-bar:horizontal .thumb {
+    -fx-background-color: #d4af37;
+    -fx-background-radius: 10;
+}
+
+/* Στυλ για τις καρτέλες (Tabs) */
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #fffcf0;
+}
+
+.tab {
+    -fx-background-color: #fdf5e6;
+    -fx-background-radius: 5 5 0 0;
+    -fx-padding: 5 15 5 15;
+}
+
+.tab:selected {
+    -fx-background-color: #d4af37;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
